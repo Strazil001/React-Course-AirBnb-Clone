@@ -1,13 +1,14 @@
 .navbar{
-    height: 150px;
+    height: 100px;
     width: 100%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    box-shadow: 0 4px 11px -2px #11111bbb;
+    box-shadow: 0 3px 12px -2px #111111aa;
 }
 
 .navbar--logo {
     height: 60px;
     margin-left: 50px;
+    cursor: pointer;
 }
