@@ -10,10 +10,11 @@ export default function App() {
       <Card
         key={item.id}
         img={item.img}
-        rating={item.rating}
-        info={item.info}
+        rating={item.stats.rating}
+        info={item.stats.info}
         intro={item.intro}
         price={item.price}
+        openSpots={item.openSpots}
       />
     );
   });

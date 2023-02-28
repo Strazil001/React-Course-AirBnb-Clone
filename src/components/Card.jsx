@@ -7,7 +7,7 @@ import "./Card.css";
 export default function (props) {
   return (
     <div className="card">
-      {/* <img className="img--sold_out" alt="sold out banner" src={Sold_Out} /> */}
+      {props.openSpots === 0 && <div className="card--badge">SOLD OUT</div>}
       <div className="img-container">
         <img className="img--card" alt="woman swimming" src={props.img} />
       </div>
